@@ -1,0 +1,48 @@
+{
+  "name": "react-dialog-mxy",
+  "version": "0.0.2",
+  "type": "module",
+  "author": "mxy",
+  "license": "MIT",
+  "description": "react learn template",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json",
+    "preview": "vite preview"
+  },
+  "module": "./es/index.js",
+  "main": "./lib/index.js",
+  "types": "./es/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxyhi/react-component-learn.git"
+  },
+  "files": [
+    "./es",
+    "./lib",
+    "./dist",
+    "./README.md"
+  ],
+  "keywords": [
+    "react",
+    "component library",
+    "ui framework",
+    "ui",
+    "dialog",
+    "react learn"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react-swc": "^3.0.1",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "react": "^18.2.0",
+    "react-dialog-mxy": "^0.0.1",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.0"
+  }
+}
