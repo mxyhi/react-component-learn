@@ -1,6 +1,7 @@
-import { Dialog } from 'react-dialog-mxy';
+// import { Dialog } from './components'
 import { useState } from 'react';
 // import { Dialog } from '../es';
+import { Dialog } from 'react-dialog-mxy';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);

@@ -4,7 +4,6 @@ import {
   PropsWithChildren,
   useEffect,
   ReactNode,
-  Children,
 } from 'react';
 import './styles/index.css';
 import { createPortal } from 'react-dom';
