@@ -1,5 +1,9 @@
 # react dialog components learn
 
+## [preview](https://mxyhi.github.io/react-component-learn/)
+
+## preview:https://mxyhi.github.io/react-component-learn/
+
 ### learn react
 
 ## install

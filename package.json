@@ -1,6 +1,6 @@
 {
   "name": "react-dialog-mxy",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "type": "module",
   "author": "mxy",
   "license": "MIT",
@@ -11,6 +11,7 @@
     "build:docs": "vite build -c vite.config.docs.ts",
     "preview": "vite preview"
   },
+  "homepage": "https://mxyhi.github.io/react-component-learn/",
   "module": "./es/index.js",
   "main": "./lib/index.js",
   "types": "./es/index.d.ts",

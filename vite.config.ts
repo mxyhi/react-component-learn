@@ -7,7 +7,7 @@ export default defineConfig({
   base: './',
   plugins: [react()],
   build: {
-    target:"ESNext",
+    target: 'ESNext',
     cssCodeSplit: true,
     rollupOptions: {
       treeshake: false,
@@ -44,16 +44,15 @@ export default defineConfig({
           dir: 'lib',
           preserveModulesRoot: './src/components',
         },
-
         {
-          name: 'mxUi',
+          name: 'reactDialogMxy',
           format: 'iife',
           entryFileNames: '[name].js',
           dir: 'dist',
           plugins: [terser()],
         },
         {
-          name: 'mxUi',
+          name: 'reactDialogMxy',
           format: 'umd',
           entryFileNames: '[name].umd.js',
           dir: 'dist',
@@ -63,7 +62,7 @@ export default defineConfig({
     },
     lib: {
       entry: './src/components/index.ts',
-      name: 'drag',
+      name: 'react-dialog-mxy',
     },
   },
 });
